@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Elixir",
+      "type": "elixir",
+      "request": "launch",
+      "module": "Identicon", // Replace with your module name
+      "function": "main", // Replace with the function you want to debug
+      "args": ["brats"], // Replace with any arguments your function needs
+      "env": {
+        "MIX_ENV": "dev" // Set your environment if needed
+      }
+    }
+  ]
+}
